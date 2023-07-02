@@ -48,7 +48,7 @@ func init() {
 		PORT = os.Getenv("PORT")
 	}
 	if HOST == "" {
-		HOST = "127.0.0.1"
+		HOST = "0.0.0.0"
 	}
 	if PORT == "" {
 		PORT = "8080"
